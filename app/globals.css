@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF7F5;
+  --foreground: #1E1520;
+}
+
+@layer base {
+  * {
+    border-color: rgba(225, 29, 72, 0.1);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+    selection-background-color: #FECDD3;
+  }
+  ::selection {
+    background-color: #FFE4E6;
+    color: #9F1239;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5D5D8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4BFC4;
+}
+
+/* Before / After Slider utilities */
+.slider-handle-glow {
+  box-shadow: 0 0 25px rgba(225, 29, 72, 0.5), 0 0 10px rgba(192, 132, 252, 0.5);
+}
+
+/* Subtle gradient mesh background */
+.mesh-bg {
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(254, 205, 211, 0.35) 0px, transparent 50%),
+    radial-gradient(at 90% 15%, rgba(233, 213, 255, 0.35) 0px, transparent 50%),
+    radial-gradient(at 50% 60%, rgba(255, 228, 230, 0.4) 0px, transparent 60%),
+    radial-gradient(at 80% 85%, rgba(243, 232, 255, 0.4) 0px, transparent 50%);
+}
+
+.mesh-subtle {
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(254, 205, 211, 0.25) 0px, transparent 40%),
+    radial-gradient(at 100% 100%, rgba(233, 213, 255, 0.25) 0px, transparent 40%);
+}
