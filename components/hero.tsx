@@ -54,15 +54,6 @@ export function Hero() {
                 <span>See How It Works</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
-
-              <Link
-                href="/contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full text-base font-semibold text-plum-800 bg-white/80 hover:bg-white border border-blush-200/80 shadow-sm hover:border-blush-300 transition-all active:scale-[0.98]"
-                id="hero-secondary-cta"
-              >
-                <Sparkle className="w-4 h-4 text-blush-500" />
-                <span>Get in Touch</span>
-              </Link>
             </div>
 
             {/* Coming Soon reassurance note */}
@@ -71,7 +62,7 @@ export function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blush-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blush-500"></span>
               </span>
-              <span>MakeApp.ai mobile app is coming soon.</span>
+              <span>mesi.ai mobile app is coming soon.</span>
             </div>
           </motion.div>
 

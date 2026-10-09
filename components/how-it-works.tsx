@@ -68,7 +68,7 @@ export function HowItWorks() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="text-xs font-bold uppercase tracking-widest text-blush-600 bg-blush-50 border border-blush-200/80 px-4 py-1.5 rounded-full inline-block mb-4">
-            The MakeApp.ai Journey
+            The mesi.ai Journey
           </span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-plum-900 mb-5">
             From Face Scan to Finished Look

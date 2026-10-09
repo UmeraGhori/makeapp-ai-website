@@ -1,9 +1,9 @@
-# MakeApp.ai — Official Pre-Launch Website
+# mesi.ai — Official Pre-Launch Website
 
 > **Beauty, personalized.**  
 > An AI-powered makeup assistant that helps users discover cosmetic looks tailored to their facial geometry, skin tone, undertone, and aesthetic style.
 
-![MakeApp.ai Preview](public/images/after-glam.jpg)
+![mesi.ai Preview](public/images/after-glam.jpg)
 
 ## 🌟 Core App Flow
 1. **Face Scan**: Biometric face shape, skin tone, and undertone detection.
@@ -38,9 +38,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📄 Pages
 - `/` — Homepage & Interactive AI Try-On Slider
-- `/privacy-policy` — Complete 18-Section Privacy Policy
-- `/terms` — Terms of Service & Beauty Disclaimers
-- `/contact` — Direct Founder Inquiries (`hello@makeapp.ai`)
+- `/privacy-policy` — Privacy Policy
+- `/terms` — Terms of Use
 
 ---
-© 2026 MakeApp.ai. All rights reserved.
+© 2026 mesi.ai. All rights reserved.

@@ -43,10 +43,10 @@ export function PhoneMockup() {
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-1.5">
                 <div className="relative w-5 h-5 rounded-md overflow-hidden ring-1 ring-blush-400/50">
-                  <Image src="/logo.png" alt="MakeApp.ai" fill className="object-cover" />
+                  <Image src="/logo.png" alt="mesi.ai" fill className="object-cover" />
                 </div>
                 <span className="text-xs font-bold tracking-wider uppercase text-blush-200">
-                  MakeApp.ai
+                  mesi.ai
                 </span>
               </div>
               <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-blush-500/20 text-blush-300 border border-blush-500/30">

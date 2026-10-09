@@ -20,7 +20,7 @@ export function ComingSoon() {
           </div>
 
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-plum-900 tracking-tight mb-4">
-            MakeApp.ai is coming soon.
+            mesi.ai is coming soon.
           </h2>
 
           <p className="text-base sm:text-lg text-plum-700 max-w-xl mx-auto mb-8 leading-relaxed font-normal">
@@ -36,13 +36,6 @@ export function ComingSoon() {
               <Sparkles className="w-4 h-4" />
               <span>Experience AI Preview</span>
               <ArrowRight className="w-4 h-4" />
-            </Link>
-
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full text-sm font-semibold text-plum-800 bg-white hover:bg-blush-50/60 border border-blush-200 transition-all"
-            >
-              <span>Contact the Team</span>
             </Link>
           </div>
 

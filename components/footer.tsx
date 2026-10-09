@@ -13,14 +13,14 @@ export function Footer() {
               <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-xs ring-1 ring-blush-300/40">
                 <Image
                   src="/logo.png"
-                  alt="MakeApp.ai Logo"
+                  alt="mesi.ai Logo"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-1">
                 <span className="font-display font-bold text-2xl tracking-tight text-plum-900">
-                  Make<span className="text-blush-600">app</span>
+                  mesi
                 </span>
                 <span className="text-xs font-semibold px-1.5 py-0.5 rounded-full bg-blush-100 text-blush-600 border border-blush-200">
                   .ai
@@ -72,14 +72,6 @@ export function Footer() {
                   AI Preview
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="hover:text-blush-600 transition-colors"
-                >
-                  Get in Touch
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -102,25 +94,16 @@ export function Footer() {
                   href="/terms"
                   className="hover:text-blush-600 transition-colors"
                 >
-                  Terms of Service
+                  Terms of Use
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/account/delete"
                   className="hover:text-blush-600 transition-colors"
                 >
-                  Contact
+                  Manage / Delete Account
                 </Link>
-              </li>
-              <li className="pt-2">
-                <span className="text-xs text-plum-400 block">General Inquiries:</span>
-                <a
-                  href="mailto:hello@makeapp.ai"
-                  className="text-xs font-medium text-plum-700 hover:text-blush-600 transition-colors"
-                >
-                  hello@makeapp.ai
-                </a>
               </li>
             </ul>
           </div>
@@ -129,13 +112,22 @@ export function Footer() {
 
         {/* Bottom Bar: Copyright & Status */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-plum-500">
-          <p>© 2026 MakeApp.ai. All rights reserved.</p>
+          <p>© 2026 mesi.ai. All rights reserved.</p>
           <div className="flex items-center gap-4 text-plum-400">
             <span>Pre-Launch Development Edition</span>
             <span>•</span>
             <span className="text-plum-600 font-medium">Coming Soon to iOS & Android</span>
           </div>
         </div>
+
+        <p className="pt-6 text-center text-xs text-plum-500">
+          <a
+            href="mailto:khanumera51@gmail.com"
+            className="font-medium text-plum-700 hover:text-blush-600 transition-colors"
+          >
+            khanumera51@gmail.com
+          </a>
+        </p>
 
       </div>
     </footer>

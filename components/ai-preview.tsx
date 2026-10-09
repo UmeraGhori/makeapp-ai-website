@@ -196,7 +196,7 @@ export function AiPreviewShowcase() {
               <strong className="text-plum-900 font-semibold">
                 Technology Disclosure:
               </strong>{" "}
-              MakeApp.ai utilizes advanced generative neural models to simulate makeup aesthetics onto your facial portrait. These previews are visual estimations designed to provide style direction and inspiration while retaining your authentic bone structure; real-world cosmetic application results will naturally vary based on ambient lighting, skin texture, and specific application techniques.
+              mesi.ai utilizes advanced generative neural models to simulate makeup aesthetics onto your facial portrait. These previews are visual estimations designed to provide style direction and inspiration while retaining your authentic bone structure; real-world cosmetic application results will naturally vary based on ambient lighting, skin texture, and specific application techniques.
             </div>
           </div>
 

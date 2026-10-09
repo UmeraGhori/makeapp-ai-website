@@ -36,7 +36,7 @@ export function Navbar() {
             <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden shadow-sm ring-1 ring-blush-300/40 group-hover:scale-105 transition-transform">
               <Image
                 src="/logo.png"
-                alt="MakeApp.ai Logo"
+                alt="mesi.ai Logo"
                 fill
                 className="object-cover"
                 priority
@@ -45,7 +45,7 @@ export function Navbar() {
             <div className="flex flex-col">
               <div className="flex items-center gap-1">
                 <span className="font-display font-bold text-xl sm:text-2xl tracking-tight text-plum-900">
-                  Make<span className="text-blush-600">app</span>
+                  mesi
                 </span>
                 <span className="text-xs font-semibold px-1.5 py-0.5 rounded-full bg-blush-100 text-blush-600 border border-blush-200">
                   .ai
@@ -91,15 +91,6 @@ export function Navbar() {
 
           {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-3">
-            <Link
-              href="/contact"
-              className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-gradient-to-r from-blush-600 via-blush-500 to-lavender-500 hover:opacity-95 hover:shadow-glow transition-all active:scale-95"
-              id="navbar-contact-cta"
-            >
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Contact Us</span>
-            </Link>
-
             {/* Mobile Hamburger Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -152,16 +143,6 @@ export function Navbar() {
                 In Development
               </span>
             </Link>
-            <div className="pt-2">
-              <Link
-                href="/contact"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-blush-600 to-lavender-500 shadow-md"
-              >
-                <Sparkles className="w-4 h-4" />
-                <span>Contact Us</span>
-              </Link>
-            </div>
           </nav>
         </div>
       )}

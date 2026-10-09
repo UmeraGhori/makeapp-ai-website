@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "MakeApp.ai — AI-Powered Personalized Makeup",
+  title: "mesi.ai — AI-Powered Personalized Makeup",
   description:
     "Discover makeup looks personalized to your face with AI. Scan your face, explore inspiring looks, preview makeup with AI, discover products, and learn how to recreate your look.",
   keywords: [
@@ -24,32 +24,32 @@ export const metadata: Metadata = {
     "face scan makeup",
     "virtual makeup try-on",
     "beauty tech",
-    "makeapp ai",
+    "mesi ai",
     "makeup recommendations",
   ],
-  authors: [{ name: "MakeApp.ai" }],
-  creator: "MakeApp.ai",
-  metadataBase: new URL("https://makeapp.ai"),
+  authors: [{ name: "mesi.ai" }],
+  creator: "mesi.ai",
+  metadataBase: new URL("https://mesi.ai"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://makeapp.ai",
-    title: "MakeApp.ai — AI-Powered Personalized Makeup",
+    url: "https://mesi.ai",
+    title: "mesi.ai — AI-Powered Personalized Makeup",
     description:
       "Discover makeup looks personalized to your face with AI. Scan your face, explore inspiring looks, preview makeup with AI, discover products, and learn how to recreate your look.",
-    siteName: "MakeApp.ai",
+    siteName: "mesi.ai",
     images: [
       {
         url: "/logo.png",
         width: 1024,
         height: 1024,
-        alt: "MakeApp.ai - Beauty Personalized",
+        alt: "mesi.ai - Beauty Personalized",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MakeApp.ai — AI-Powered Personalized Makeup",
+    title: "mesi.ai — AI-Powered Personalized Makeup",
     description:
       "Discover makeup looks personalized to your face with AI. Scan your face, explore inspiring looks, preview makeup with AI, discover products, and learn how to recreate your look.",
     images: ["/logo.png"],
