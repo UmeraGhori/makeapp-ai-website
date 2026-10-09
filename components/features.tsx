@@ -34,8 +34,8 @@ const features = [
   },
   {
     icon: Compass,
-    title: "Pinterest Inspiration",
-    description: "Explore real makeup inspiration from Pinterest.",
+    title: "Trending AI Looks",
+    description: "Explore the latest trending AI-powered makeup looks.",
     tag: "Trend Intelligence",
     gradient: "from-rose-500 to-blush-600",
   },

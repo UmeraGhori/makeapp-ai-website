@@ -178,7 +178,7 @@ export function PhoneMockup() {
             ⭐ Recommended for You
           </p>
           <span className="text-[10px] text-plum-500">
-            Pinterest-Ranked Look #1
+            Trending AI Look #1
           </span>
         </div>
       </motion.div>

@@ -8,7 +8,7 @@
 ## 🌟 Core App Flow
 1. **Face Scan**: Biometric face shape, skin tone, and undertone detection.
 2. **Style Selection**: Aesthetic choices from natural everyday to bold glam.
-3. **Pinterest Inspiration**: Trend discovery and personalized matching.
+3. **Trending AI Looks**: Latest trending AI-powered looks and personalized matching.
 4. **AI Makeup Preview**: Identity-preserving visual try-on simulations.
 5. **Product Recommendations**: Multi-budget recommendations.
 6. **Application Guide**: Step-by-step recreation tutorials.

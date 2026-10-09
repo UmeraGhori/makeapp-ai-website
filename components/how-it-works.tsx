@@ -25,9 +25,9 @@ const steps = [
   {
     number: "03",
     title: "Discover Your Look",
-    description: "Browse Pinterest-inspired makeup looks and get AI-powered recommendations.",
+    description: "Browse the latest trending AI-powered makeup looks and get personalized recommendations.",
     icon: Compass,
-    badge: "Smart Pinterest Curation",
+    badge: "Trending AI Looks",
     gradient: "from-lavender-500/10 to-plum-500/10",
     iconColor: "text-lavender-600 bg-lavender-100",
   },
